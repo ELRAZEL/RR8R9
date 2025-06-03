@@ -5,20 +5,20 @@ admins = {}
 load_dotenv()
 
 # client vars
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
-BOT_TOKEN = getenv("BOT_TOKEN")
-SESSION_NAME = getenv("SESSION_NAME", "session")
+API_ID = int(getenv("8924406"))
+API_HASH = getenv("f99d5618d841b4e28763af685f7c0bce")
+BOT_TOKEN = getenv("7658536851:AAGill85SQGuSVbPUyu0cp9M1jD9d8vyS-I")
+SESSION_NAME = getenv("SESSION_NAME", "BAGrlpUAKQVbAkygtR0MJPI7JQiLlcgRBHYYY9iPjxv3QCRhzCBVMaJI3bwy6gPRJlMN25N1VSA0J2T4MnkxXGrCDCdC2q7FNhgw8VDBbEAEQkIizQS3UFDh5uSeSlXA37SxOiBs6v3xXqnet-NatczG0Xsiso6r-cOfhKzZC5-wxgcbJVaSoCyemBzlKmSQTbEmMg39xOjYvHMWpTPQgDHDvFDReW0gM-p8gg6lirrI-AMsLHkJ8mXLb9ILn43BSmQrr7BJr-3heJJ0DAI-co8TiYKghQPLFEj4vtHcF7_3LzfwDRYX5FLUSJEArOCdpUevSMy0XkfgYB8nd5-EfBZZSv6DiwAAAAHRq6cCAA")
 
 # mandatory vars
-OWNER_USERNAME = getenv("OWNER_USERNAME")
-ALIVE_NAME = getenv("ALIVE_NAME")
-BOT_USERNAME = getenv("BOT_USERNAME")
+OWNER_USERNAME = getenv("@H_A_8Z")
+ALIVE_NAME = getenv("Hazem Emam")
+BOT_USERNAME = getenv("@Zomaaa2025bot")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/levina-lab/video-stream")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "VeezSupportGroup")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "levinachannel")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "https://t.me/V_E_0O")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "https://t.me/Z_D0_F")
 
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv("MONGODB_URL")
